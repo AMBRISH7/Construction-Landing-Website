@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <div class = "nav_bar">
+            <a href="#contact">Contact</a>
+            <a href="#news">News</a>
+            <a href="#project">Projects</a>
+            <a href="#about">About</a>
+            <a href="#home">Home</a>
+            <h1 class = "companyname">Bricks & Co</h1>
+    </div>    
+    <div>
+        <img class="bg_img01" src="background_img01.jpg" alt="Construction Site Images">
+        <div class = "bg_center">Building Across the Nations.</div>
+    </div>
+
+    <!--About-->
+
+    <section class="about section" id="about">
+        <h1 class="section-title">About</h1><br>
+
+        <div class="about__container bg-grid">
+            <div class="about__img">
+                <video controls autoplay class ="aboutus_mp4" width="350px" height="350px" alt="About Us">
+                    <source src="about_us.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div>
+                <h2 class="about__subtitle">We Build Possibilities</h2>
+                <p class="about__text">In <b>1997</b>,<b><i>Bricks & Co</i></b> opened its doors in a rented storefront in suburban Chicago. We had four staff, a handful of carpenters, two folding card tables, and a computer. We also had drive, commitment, energy, and a vision.Two decades later, we’ve grown to become a comprehensive construction management team and general contractor working in 15 states and counting. We do more than build spaces—we create environments where your team can grow, thrive, and innovate. Our superpower as a company is the ability to hear your need, envision it, and deliver against it.To do that, we create customized solutions for new construction, additions, and renovations. We’ve built a team of in-house experts as well as a broad network of specialists so that we can deliver exactly what you need in creative solutions, technology, and materials. With every project, we strive to create—and realize—a vision that fulfills the client’s needs and results in an extraordinary environment.While we’ve grown, a few fundamentals have remained constant. We’re still a family-owned business with client commitment and superior partnership foremost in mind on every job. We’re still driven to bring creative solutions and expertise to every challenge. We also love what we do—and it shows, in both the quality of our work and in the enduring relationships that have fueled our company growth.</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Projects-->
+
+    <section class="projects section" id="project"></section>
+    <h1 class="game-list-title">Our Projects</h1>
+                <div class="game-list-wrapper">
+                    <div class="game-list">
+                        <div class="game-list-item">
+                            <img class="game-list-item-img" src="proj_img01.jpg" alt="">
+                            <span class="game-list-item-title">Stantec </span>
+                            <p class="game-list-item-desc">Stantec Tower is a 66-story building and 4 underground, 250.8 m (823 ft) mixed-use skyscraper in Ice District in the downtown core of Edmonton, Alberta, Canada.</p>
+                        </div>
+
+                        <div class="game-list-item">
+                            <img class="game-list-item-img" src="proj_img02.jpg" alt="">
+                            <span class="game-list-item-title">Cornelius</span><br>
+                            <p class="game-list-item-desc">Cornelius Brookyln Apartments is a 6-story building and 2 underground, 250.8 m (105 ft) apartment in Ice District in the Borough, City in New York.</p>
+                        </div>
+
+                        <div class="game-list-item">
+                            <img class="game-list-item-img" src="proj_img03.jpg" alt="">
+                            <span class="game-list-item-title">Marienplatz  </span>
+                            <p class="game-list-item-desc"> Beautiful Facade of Gothic Churches in Munich</p>
+                        </div>
+
+                        <div class="game-list-item">
+                            <img class="game-list-item-img" src="proj_img04.jpg" alt="">
+                            <span class="game-list-item-title">Kiyomizu-Dera</span>                          </span><br>
+                            <p class="game-list-item-desc">The Kiyomizu-dera temple is a Buddhist shrine that’s recognized as one of the nation’s oldest religious structures, as well as a major tourist destination for visitors to Japan, and for those of the Buddhist faith.</p>
+                        </div>
+                    </div>
+
+                    <div class="owl-theme">
+                        <div class="owl-controls">
+                            <div class="custom-nav owl-nav"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <h1 class="section-title">Contact</h1><br><br><br>
+        <div class="contact__container">
+            <form action="" class="contact__form" id="TextArea">
+                <label class="Queries">Enquiry/Queries</label><br><br><br>
+                <label>Name:</label>
+                <input type="text" placeholder="Name" class="contact__input" id ="cname"><br><br><br>
+                <label>Email:</label>
+                <input type="mail" placeholder="Email" class="contact__input" id = "cemail"><br><br><br><br
+                <label>Any Queries:</label>
+                <input type="textarea" placeholder="Mention your queries!" class="contact__input" id = "cqueries"><br><br><br><br><br>
+                <button class="contact__button button" onclick="Submit()">Submit</button>
+            </form>
+
+        </div>
+
+    </section><br>
+
+
+    <!--Page Loader
+    <div class ="loader"></div>
+    -->
+
+    <!--Footer-->
+    <footer class="footer_bar">
+        <div class = "company_namefooter">Bricks & Co &#169</div>
+        <div class = "company_addressfooter">No:07,Ranchi Ring Road,Ranchi,Jharkhand-834005.</div>
+    </footer>
+    <script src="script.js"></script>
+
+    
+</body>
+</html>
